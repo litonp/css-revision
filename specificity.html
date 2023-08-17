@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        h1 {
+            color: red;
+            background-color: aqua;
+        }
+
+        .first {
+            color: blue;
+        }
+
+        #second {
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My heading number-1</h1>
+    <h1 class="first">My heading number-2</h1>
+    <h1 id="second" class="first">My heading number-3</h1>
+    <h1 style="color: blueviolet;">My heading number-4 </h1>
+    <p>This is my text description-1</p>
+    <p>This is my text description-2</p>
+    <p>This is my text description-3</p>
+    <p>This is my text description-4</p>
+    <p>This is my text description-5</p>
+</body>
+
+</html>
